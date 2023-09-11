@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!-- INTERNAL CSS  -->
+    <style>
+        /* SELECTOR ELEMENT */
+        h2 {
+            color: brown;
+            background-color: burlywood;
+        }
+        /* SELECTOR CLASS  */
+        .text-red {
+            color: red;
+        }
+        .bg-gray {
+            background-color: gray;
+        }
+        /* SELECTOR ID  */
+        #judul2 {
+            color: green;
+            background-color: darkseagreen;
+        }
+        /* SELECTOR PARENT KE CHILD  */
+        .artikel h1 {
+            color: white;
+            background-color: blue;
+        }
+    </style>
+
+    <!-- EXTERNAL CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- INLINE CSS  -->
+    <h1 style="color: #203E70; background-color: aliceblue;">Headings 1</h1>
+    <h2>Headings 2</h2>
+    <h2 class="text-red">Headings 2</h2>
+    <h2 class="bg-gray">Headings 2</h2>
+    <h2 class="text-red bg-gray">Headings 2</h2>
+    <h2 id="judul2">Headings 2</h2>
+    <h2 id="judul3">Headings 2</h2>
+    <div class="artikel">
+        <h1>H1 di dalam artikel</h1>
+    </div>
+    <h1>H1 di luar artikel</h1>
+</body>
+</html>

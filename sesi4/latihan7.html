@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        /* STYLE DI LAPTOP / SCREEN > 768px */
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .image img {
+            width: 100%;
+        }
+
+        .text {
+            background-color: lavender;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        /* STYLE DI HP / SCREEN <= 768px */
+        @media(max-width:768px) {
+            .container {
+                flex-direction: column;
+            }
+            .text {
+                background-color: lightgreen;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="../sesi2/images/bunga.jpg" alt="bunga" />
+        </div>
+        <div class="text">
+            Bunga (serapan dari Jawa: ꦧꦸꦔꦃ, translit. bungah) atau kembang (serapan dari Jawa: ꦏꦼꦩ꧀ꦧꦁ) adalah alat
+            reproduksi seksual pada tumbuhan berbunga (divisio Magnoliophyta atau Angiospermae, "tumbuhan berbiji
+            tertutup"). Pada bunga terdapat organ reproduksi, yaitu benang sari dan putik.
+
+            Bunga dapat muncul secara tunggal maupun bersama-sama dalam satu rangkaian. Bunga yang muncul secara
+            bersama-sama disebut sebagai bunga majemuk atau inflorescence. Pada beberapa spesies, bunga majemuk dapat
+            dianggap awam sebagai bunga (tunggal), misalnya pada Anthurium dan bunga matahari. Satuan bunga yang
+            menyusun bunga majemuk disebut floret.
+
+            Secara botani, bunga adalah bagian tanaman untuk menghasilkan biji. Penyerbukan dan pembuahan berlangsung
+            pada bunga. Setelah pembuahan, bunga akan berkembang lebih lanjut membentuk buah. Pada tumbuhan berbunga,
+            buah adalah struktur yang membawa dan melindungi biji.
+        </div>
+    </div>
+</body>
+
+</html>
